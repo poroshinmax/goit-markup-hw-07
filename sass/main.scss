@@ -1,13 +1,12 @@
 @import "./utils/vars";
 @import "./base/reset";
 @import "./base/common";
+@import "./utils/mixins";
 @import "./utils/visually-hidden";
 @import "./components/container";
 @import "./components/img";
 @import "./components/section";
 @import "./components/logo";
-@import "./components/link-nav";
-@import "./components/modal";
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/benefits-section";
@@ -17,3 +16,4 @@
 @import "./layout/main-portfolio";
 @import "./layout/portfolio-btn";
 @import "./layout/portfolio-gallery";
+@import "./components/modal";

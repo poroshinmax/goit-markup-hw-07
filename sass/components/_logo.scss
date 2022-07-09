@@ -1,20 +1,21 @@
-.header-logo-first-part,
+.logo__first-part,
 .footer-logo-first-part {
   color: #2196f3;
 }
-.header-logo {
+
+.logo {
   font-family: "Raleway";
-  font-size: 26px;
-  line-height: 1.19;
-  color: #000000;
+  @include font(null, 26px, 1.19, null);
+
   text-decoration: none;
 }
+
 .footer-logo {
   margin-bottom: 20px;
-
-  font-family: "Raleway";
-  font-size: 26px;
-  line-height: 1.19;
+}
+.logo--color-dark {
+  color: #000000;
+}
+.logo--color-light {
   color: #ffffff;
-  text-decoration: none;
 }

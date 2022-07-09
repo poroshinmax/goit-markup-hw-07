@@ -19,12 +19,9 @@
 }
 
 .footer-address-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-
   color: #ffffff;
+
+  @include font(400, 14px, 1.71, 0.03em);
 }
 .footer-mail {
   margin-bottom: 9px;
@@ -32,13 +29,10 @@
 
 .footer-mail,
 .footer-tel {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+
+  @include font(400, 14px, 1.71, 0.03em);
 }
 .footer-soc {
   display: flex;
@@ -49,9 +43,7 @@
   margin-top: 12px;
   margin-bottom: 20px;
 
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font(null, 14px, 1.14, 0.03em);
   text-transform: uppercase;
 
   color: #ffffff;
@@ -89,10 +81,8 @@
 .footer-form-text {
   margin-top: 12px;
   margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+
+  @include font(700, 14px, 1.14, 0.03em);
   text-transform: uppercase;
 
   color: #ffffff;
@@ -123,10 +113,7 @@
   padding: 10px 29px;
   margin-left: 12px;
 
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
+  @include font(700, 16px, 1.88, 0.06em);
 
   display: flex;
   align-items: center;

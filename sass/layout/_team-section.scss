@@ -9,9 +9,8 @@
 .tiam-title {
   margin-bottom: 50px;
 
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  @include font(null, 36px, 1.17, 0.03em);
+
   color: var(--h-text-color);
   text-align: center;
 }
@@ -37,19 +36,15 @@
 .team-img-name {
   margin-bottom: 10px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include font(500, 16px, 1.19, 0.03em);
+
   color: var(--h-text-color);
 }
 .team-img-position {
   margin-bottom: 16px;
-
-  font-size: 16px;
-  line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
+
+  @include font(null, 16px, 1.19, 0.03em);
 
   color: #757575;
 }
