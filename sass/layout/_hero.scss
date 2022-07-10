@@ -1,4 +1,4 @@
-.hero-section {
+.hero__section {
   background: #2f303a;
   text-align: center;
   padding-top: 200px;
@@ -14,7 +14,7 @@
   max-width: 1600px;
   margin: 0 auto;
 }
-.hero-title {
+.hero__title {
   margin: 0 auto 30px auto;
   max-width: 696px;
 
@@ -23,7 +23,7 @@
 
   color: #ffffff;
 }
-.hero-button {
+.hero__button {
   padding: 10px 32px;
 
   @include font(700, 16px, 1.88, 0.06em);
