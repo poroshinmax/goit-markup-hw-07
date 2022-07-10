@@ -74,22 +74,17 @@ img {
   color: #2196f3;
 }
 
-.logo {
+.logo,
+.footer-logo {
   font-family: "Raleway";
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  color: #000000;
 }
 
 .footer-logo {
   margin-bottom: 20px;
-}
-
-.logo--color-dark {
-  color: #000000;
-}
-
-.logo--color-light {
   color: #ffffff;
 }
 

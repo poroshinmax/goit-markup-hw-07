@@ -3,19 +3,22 @@
   color: #2196f3;
 }
 
-.logo {
+.logo,
+.footer-logo {
   font-family: "Raleway";
   @include font(null, 26px, 1.19, null);
 
   text-decoration: none;
+  color: #000000;
 }
 
 .footer-logo {
   margin-bottom: 20px;
-}
-.logo--color-dark {
-  color: #000000;
-}
-.logo--color-light {
   color: #ffffff;
 }
+// .logo--color-dark {
+
+// }
+// .logo--color-light {
+
+// }
